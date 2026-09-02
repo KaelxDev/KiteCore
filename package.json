@@ -1,0 +1,10 @@
+{
+  "name": "kite-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kite — local intelligence in the browser using WebLLM and WebGPU.",
+  "scripts": {"dev":"next dev","build":"next build","start":"next start","typecheck":"tsc --noEmit"},
+  "engines": {"node": ">=20.9.0"},
+  "dependencies": {"@mlc-ai/web-llm":"0.2.84","next":"16.3.3","react":"19.2.8","react-dom":"19.2.8"},
+  "devDependencies": {"@types/node":"^22.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0","typescript":"^5.9.0"}
+}
